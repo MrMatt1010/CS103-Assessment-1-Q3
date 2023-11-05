@@ -9,7 +9,20 @@ using namespace std;
 
 
 int main(){
+    // Declare and initialize A and B matrices
+    int b[3][3] = {
+        {1,2,3},
+        {4,5,6},
+        {7,8,9}
+    };
 
+    int b[3][3] = {
+        {9,8,7},
+        {6,5,4},
+        {3,2,1}
+    };
+
+    int c[3][3]; //Matrix to store the result
     
     
 }

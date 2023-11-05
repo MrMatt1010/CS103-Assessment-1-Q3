@@ -10,7 +10,7 @@ using namespace std;
 
 int main(){
     // Declare and initialize A and B matrices
-    int b[3][3] = {
+    int a[3][3] = {
         {1,2,3},
         {4,5,6},
         {7,8,9}
@@ -38,6 +38,31 @@ int main(){
         }
     }
 
+    // Display the inout from Matrix A and B
+    cout << "Matrix A: ";
+    for (int i = 0; i < 3; i++) {
+        for (int j = 0; j < 3; j++) {
+            cout << a[i][j] << " ";
+        }
+        cout << std::endl;
+    }
 
+    cout << "Matrix B: ";
+    for (int i = 0; i < 3; i++) {
+        for (int j = 0; j < 3; j++) {
+            cout << b[i][j] << " ";
+        }
+        cout << std::endl;
+    }
+
+    //Display the output of Matrix C
+    cout << "Result of Matrix C (Matrix A + B multiplied by 3):";
+    for (int i = 0; i < 3; i++) {
+        for (int j = 0; j < 3; j++) {
+            cout << c[i][j] << " ";
+        }
+        cout << std::endl;
+    }
+    return 0;
 }
 
